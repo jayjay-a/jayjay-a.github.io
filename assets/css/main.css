@@ -2599,8 +2599,8 @@
 
 /* One */
 
-	#one:before {
-		background-image: url("../../images/banner.jpg");
+	#about:before {
+		background-image: url("../../images/headimage.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
