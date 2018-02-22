@@ -5,123 +5,135 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Julius Agno</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body>
 
-		<!-- Header -->
-			<section id="header">
-			
-				<header>
-					<span class="image avatar"><img src="images/avatar.png" alt="" /></span>
-					<h1 id="logo"><a href="index.html">Julius Agno</a></h1>
-					<p>I'm a CIS student<br />
-					at the University of Houston!</p>
-				</header>
-				
-				<nav id="nav">
-					<ul>
-						<li><a href="#about" class="active">About</a></li>
-						<li><a href="#requirements">Requirements</a></li>
-						<li><a href="#unifi">UniFi</a></li>
-						<li><a href="#process">Process</a></li>
-						<li><a href="#future">Future Upgrades</a></li>
-					</ul>
-				</nav>
-				
-				<footer>
-					<ul class="icons">
-						<!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
-						<!--<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>-->
-						<!--<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>-->
-						<li><a href="https://www.linkedin.com/in/julius-agno-a6510b115/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<!--<li><a href="https://github.com/jayjay-a" class="icon fa-github"><span class="label">Github</span></a></li>>-->
-						<li><a href="mailto:agno.julius@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</footer>
-				
-			</section>
+<head>
+    <title>Julius Agno</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+</head>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<body>
 
-				<!-- Main -->
-					<div id="main">
+    <!-- Header -->
+    <section id="header">
 
-						<!-- About -->
-							<section id="about">
-								<div class="container">
-									<header class="major">
-										<h2>Home Network Upgrade</h2>
-									</header>
-									<p>In this project, I analyze my home network for expansion oppurtunities and ultimately upgrade it in a way to give me more room to expand in the future.</p>
-								</div>
-							</section>
+        <header>
+            <span class="image avatar"><img src="images/avatar.png" alt="" /></span>
+            <h1 id="logo"><a href="index.html">Julius Agno</a></h1>
+            <p>I'm a CIS student<br /> at the University of Houston!</p>
+        </header>
 
-						<!-- requirements -->
-							<section id="requirements">
-								<div class="container">
-									<h3>Requirements</h3>
-									<p>I originally started this project because the Wi-Fi in my house was terrible, so I first set a requirement to improve Wi-Fi coverage in every corner of my house. The only network switches in my network was a 4 port one on the router and another one with a maximum bandwidth of 100Mbps while my Internet speed was higher than that. From this, I figured that I needed to get two wireless access points and some network switches. In my research, I also came across <a href="https://pi-hole.net/">Pi-Hole</a>, a DNS sinkhole to prevent advertisements network-wide. I decided to grab a Raspberry Pi to try it out.</p>
-								</div>
-							</section>
+        <nav id="nav">
+            <ul>
+                <li><a href="#about" class="active">About</a></li>
+                <li><a href="#requirements">Requirements</a></li>
+                <li><a href="#unifi">UniFi</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#future">Future Upgrades</a></li>
+            </ul>
+        </nav>
 
-						<!-- unifi -->
-							<section id="unifi">
-								<div class="container">
-									<h3>UniFi</h3>
-									<p>After doing research on different wireless access points, I decided to choose Ubiquiti's UniFi Access Point. UniFi is an enterprise-like Wi-Fi system that is scaleable and easily manageable. It connects to a UniFi Controller which manages any access point I adopt on it. It is also able to manage a UniFi Security Gateway, Ubiquiti's enterprise gateway router. I choose the UAP as my wireless access points because of it's guest network policies that I can control such as restricting subnets and download speed. </p>
-								</div>
-							</section>
+        <footer>
+            <ul class="icons">
+                <!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
+                <!--<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>-->
+                <!--<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>-->
+                <li><a href="https://www.linkedin.com/in/julius-agno-a6510b115/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <!--<li><a href="https://github.com/jayjay-a" class="icon fa-github"><span class="label">Github</span></a></li>>-->
+                <li><a href="mailto:agno.julius@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
+        </footer>
 
-							<!-- process -->
-							<section id="process">
-								<div class="container">
-									<h3>Process</h3>
-									<p>First, I had to analyze which areas of my house had the least Wi-Fi coverage and which ones would need the most. I decided to place one access point in my game room on the second floor because it had many devices and it was near my room, and the other on the opposite of my house in the study room. Next I had to terminiate my house's existing cat5e wires into a network switch which would connect to my router. That network switch was dedicated to my house's ports, while another switch was dedicated to the desktops and access points. After I had all the physical networking done, I worked on configuring the Wi-Fi. I analyzed which channels were the least congested, and set my access points appropriately. I also set up guest policies for my friends or relatives that come over, so they have access to the internet but not access to anything else on the network. I ran a speed test in my room and my new speeds were more than 5 times faster. I then set up a Pi-hole to filter out advertisements for my smart TV in my gameroom, and on an average day, around 15-20% requests are blocked</p>
-									
-								</div>
-							</section>
+    </section>
 
-							<!-- future -->
-							<section id="future">
-								<div class="container">
-									<h3>Future Upgrades</h3>
-									<p>In the future, I hope to replace my current router so I can get more familiar with configuring different subnets for different tasks. I want to get a UniFi Security Gateway because that will be easily configurable from my UniFi controller that is already managing my access points. I also want to get a server to add to my network to centralize my files, create a VPN endpoint, and just play around with different technologies</p>
-								</div>
-							</section>
+    <!-- Wrapper -->
+    <div id="wrapper">
 
-							<div class="container">
-								<a href="index.html" class="button special">Go back</a>
-							</div>
+        <!-- Main -->
+        <div id="main">
 
-					</div>
+            <!-- About -->
+            <section id="about">
+                <div class="container">
+                    <header class="major">
+                        <h2>Home Network Upgrade</h2>
+                    </header>
+                    <p>In this project, I analyze my home network for expansion oppurtunities and ultimately upgrade it in a way to give me more room to expand in the future.</p>
+                </div>
+            </section>
 
-				<!-- Footer -->
-					<section id="footer">
-						<div class="container">
-							<ul class="copyright">
-								<li>&copy; Julius Agno. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
+            <!-- requirements -->
+            <section id="requirements">
+                <div class="container">
+                    <h3>Requirements</h3>
+                    <p>I originally started this project because the Wi-Fi in my house was terrible, so I first set a requirement to improve Wi-Fi coverage in every corner of my house. The only network switches in my network was a 4 port one on the router
+                        and another one with a maximum bandwidth of 100Mbps while my Internet speed was higher than that. From this, I figured that I needed to get two wireless access points and some network switches. In my research, I also came across
+                        <a href="https://pi-hole.net/">Pi-Hole</a>, a DNS sinkhole to prevent advertisements network-wide. I decided to grab a Raspberry Pi to try it out.</p>
+                </div>
+            </section>
 
-			</div>
+            <!-- unifi -->
+            <section id="unifi">
+                <div class="container">
+                    <h3>UniFi</h3>
+                    <p>After doing research on different wireless access points, I decided to choose Ubiquiti's UniFi Access Point. UniFi is an enterprise-like Wi-Fi system that is scaleable and easily manageable. It connects to a UniFi Controller which
+                        manages any access point I adopt on it. It is also able to manage a UniFi Security Gateway, Ubiquiti's enterprise gateway router. I choose the UAP as my wireless access points because of it's guest network policies that I can control
+                        such as restricting subnets and download speed. </p>
+                </div>
+            </section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollzer.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+            <!-- process -->
+            <section id="process">
+                <div class="container">
+                    <h3>Process</h3>
+                    <p>First, I had to analyze which areas of my house had the least Wi-Fi coverage and which ones would need the most. I decided to place one access point in my game room on the second floor because it had many devices and it was near my
+                        room, and the other on the opposite of my house in the study room. Next I had to terminiate my house's existing cat5e wires into a network switch which would connect to my router. That network switch was dedicated to my house's
+                        ports, while another switch was dedicated to the desktops and access points. After I had all the physical networking done, I worked on configuring the Wi-Fi. I analyzed which channels were the least congested, and set my access
+                        points appropriately. I also set up guest policies for my friends or relatives that come over, so they have access to the internet but not access to anything else on the network. I ran a speed test in my room and my new speeds
+                        were more than 5 times faster. I then set up a Pi-hole to filter out advertisements for my smart TV in my gameroom, and on an average day, around 15-20% requests are blocked</p>
 
-	</body>
+                </div>
+            </section>
+
+            <!-- future -->
+            <section id="future">
+                <div class="container">
+                    <h3>Future Upgrades</h3>
+                    <p>In the future, I hope to replace my current router so I can get more familiar with configuring different subnets for different tasks. I want to get a UniFi Security Gateway because that will be easily configurable from my UniFi controller
+                        that is already managing my access points. I also want to get a server to add to my network to centralize my files, create a VPN endpoint, and just play around with different technologies</p>
+                </div>
+            </section>
+
+            <div class="container">
+                <a href="index.html" class="button special">Go back</a>
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <section id="footer">
+            <div class="container">
+                <ul class="copyright">
+                    <li>&copy; Julius Agno. All rights reserved.</li>
+                    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollzer.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
